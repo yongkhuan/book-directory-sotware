@@ -1,21 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import BookDirectory from "./screens/BookDirectory";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <BookDirectory />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
